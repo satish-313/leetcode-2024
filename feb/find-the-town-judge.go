@@ -19,7 +19,7 @@ func findJudge(n int, trust [][]int) int {
 	return -1
 }
 
-func Test22() {
+func Day22() {
 	n := 4
 	trust := [][]int{{1, 3}, {1, 4}, {2, 3}, {2, 4}, {4, 3}}
 	fmt.Println(findJudge(n, trust))

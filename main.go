@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"leet2024/feb"
+	_ "leet2024/feb"
+	"leet2024/march"
 )
 
 func main() {
 	fmt.Println("leet code 2024")
-	feb.Test22()
+	march.Day1()
 }
