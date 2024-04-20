@@ -12,8 +12,8 @@ func sumNumbers(root *treenode) int {
 }
 
 func solve(r *treenode, s string, sum *int) {
-	s += strconv.Itoa(r.Val)
 	if r != nil && r.Left == nil && r.Right == nil {
+		s += strconv.Itoa(r.Val)
 		*sum += strInt(s)
 		return
 	}
