@@ -9,5 +9,5 @@ import (
 
 func main() {
 	fmt.Println("leet code 2024")
-	april.Day18()
+	april.Day21()
 }
